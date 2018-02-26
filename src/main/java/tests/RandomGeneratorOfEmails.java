@@ -1,19 +1,14 @@
 package tests;
 
-import org.junit.Before;
+import org.junit.Test;
 import java.util.UUID;
-
 
 
 public class RandomGeneratorOfEmails {
 
     static String randomEmail = randomEmail();
 
-    @Before
-    public static void generatorEmail() {
-
-    }
-
+    @Test
     private static String randomEmail() {
         return "random-" + UUID.randomUUID().toString() + "@example.com";
     }
