@@ -7,7 +7,7 @@ import static tests.OrderPresenter.navegador;
 
 public class Initialize {
 
-    static String stringUrl = "https://myurl";
+    static String stringUrl = "https://url";
 
     @Before
     public static void testSetUp() {
